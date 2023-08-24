@@ -22,9 +22,12 @@ html {
 }
 .head__link3 {
   background-color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 0.8rem 0.01rem 0.2rem 0.01rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .head__link3:hover {
   background-color: rgb(245, 245, 242);
@@ -273,25 +276,30 @@ html {
     height: 20rem;
     width: 100vw;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
   .footer__1 {
     height: 2rem;
     padding: 1rem;
+    margin-top: 0.9rem;
   }
   .footer__2 {
     display: flex;
     flex-direction: row;
     gap: 0.4rem;
     margin: 1.5rem 0.9rem 0;
+    margin-top: 5rem;
+    margin-left: -3rem;
   }
   .footer__3 {
     text-transform: capitalize;
-    margin-top: -3rem;
+    margin-top: -0.6rem;
     text-align: center;
     font-size: 0.8rem;
     display: none;
   }
   .footer__4 {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 }/*# sourceMappingURL=styles.css.map */
